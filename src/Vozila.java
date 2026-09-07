@@ -11,7 +11,7 @@ public abstract class Vozila implements Comparable<Vozila> {
 
     @Override
     public String toString(){
-        return naziv + " - brzina: " + getBrzina() + " km/h - cijena -" + getCijena() + " €";
+        return naziv + " - brzina: " + getBrzina() + " km/h - cijena: " + getCijena() + " €";
     }
 
     }
