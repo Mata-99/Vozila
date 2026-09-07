@@ -12,11 +12,12 @@ public class Main {
      vozila.add(new Kamion("Scania", 10000));
     vozila.add(new Motocikl("Kawasaki", 600));
 
+    Collections.sort(vozila);
 
         for(Vozila v : vozila){
             System.out.println(v);
         }
-        Collections.sort(vozila);
+
 
     }
     }

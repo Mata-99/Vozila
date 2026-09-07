@@ -19,6 +19,6 @@ public class Automobil extends Vozila{
 
     @Override
     public int compareTo(Vozila o) {
-        return Integer.compareTo(this.getCijena(),o.getCijena());
+        return Integer.compare(this.getCijena(),o.getCijena());
     }
 }

@@ -19,6 +19,6 @@ public class Kamion extends Vozila{
 
     @Override
     public int compareTo(Vozila o) {
-        return 0;
+        return Integer.compare(this.getCijena(),o.getCijena());
     }
 }

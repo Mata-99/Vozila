@@ -18,6 +18,6 @@ public class Motocikl extends Vozila{
 
     @Override
     public int compareTo(Vozila o) {
-        return this.getCijena().compareTo(o.cijena());
+        return Integer.compare(this.getCijena(),o.getCijena());
     }
 }
